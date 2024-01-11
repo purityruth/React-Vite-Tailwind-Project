@@ -14,13 +14,15 @@ const Main = () => {
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                'Developer',
+                'Software Developer',
                 2000, // wait 2s
                 'Coder',
                 2000,
                 'Tech Enthusiast',
                 2000,
                 'UI/UX Designer',
+                2000,
+                'Graphics Designer',
                 1000
               ]}
               wrapper="span"

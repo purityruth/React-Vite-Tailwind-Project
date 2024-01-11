@@ -1,6 +1,6 @@
 const data = [
     {
-        year: 2023,
+        year: 2024,
         title: 'Demand Solutions',
         duration: 'Currently Here',
         details: 'Lead Senior Developer',
@@ -11,7 +11,7 @@ const data = [
         title: 'Coseke Kenya',
         duration: '3 Years',
         details: 'Software Developer',
-        description: 'A dynamic software developer who excelled in crafting robust and scalable solutions, combining technical expertise with a passion for creating innovative and efficient code'
+        description: 'A dynamic software developer who excelled in crafting robust and scalable solutions, combining technical expertise with a passion for creating innovative and efficient code.'
     },
     {
         year: 2019,
