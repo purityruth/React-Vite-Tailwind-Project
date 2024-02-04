@@ -10,8 +10,10 @@ import postersImg from '../assets/posters.png'
 const Projects = () => {
   return (
     <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-        <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Projects</h1>
-        <p className='text-center py-8'>I am a passionate and results-driven software developer with a knack for turning innovative ideas into robust, user-friendly applications. Over the years, I've had the privilege of working on a diverse range of projects, honing my skills in the ever-evolving landscape of software development. <br /> Here are a few projects that showcase my capabilities:</p>
+        <h1 className='text-4xl font-bold text-center text-[#472a70]'>Projects</h1>
+        <p className='text-center py-8'>I am a passionate and results-driven software developer with a knack for turning innovative ideas into robust, user-friendly applications. 
+        Over the years, I've had the privilege of working on a diverse range of projects, honing my skills in the ever-evolving landscape of software development. <br /> 
+        Here are a few projects that showcase my capabilities:</p>
         
         <div className='grid sm:grid-cols-2 gap-12'>
             <ProjectItem img={ecabinetImg} title='ECabinet System' description='Django & Angular'/>
