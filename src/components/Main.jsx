@@ -2,6 +2,7 @@ import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import profileImg from '../assets/g4.jpg'
 import {FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn, FaGithub} from 'react-icons/fa'
+import {AiFillMail} from 'react-icons/ai'
 
 const Main = () => {
   return (
@@ -16,11 +17,15 @@ const Main = () => {
                 // Same substring at the start will only be typed out once, initially
                 'Software Developer',
                 2000, // wait 2s
-                'Coder',
+                'Full Stack Maestro',
                 2000,
                 'Tech Enthusiast',
                 2000,
                 'UI/UX Designer',
+                2000,
+                'Code Artisan',
+                2000,
+                'API Virtuoso',
                 2000,
                 'Graphics Designer',
                 1000
@@ -31,18 +36,12 @@ const Main = () => {
               repeat={Infinity}
             />
             </h2>
-            <div className='flex justify-between pt-6 max-w-[200px] w-full'>
+            <div className='flex justify-between pt-6 max-w-[120px] w-full'>
             <a href="https://github.com/purityruth" target="_blank" rel="noopener noreferrer">
               <FaGithub className='cursor-pointer' size={20}/> 
             </a>
-            <a href="https://github.com/purityruth" target="_blank" rel="noopener noreferrer">
-              <FaTwitter className='cursor-pointer' size={20}/>
-            </a>
-            <a href="https://github.com/purityruth" target="_blank" rel="noopener noreferrer">
-              <FaFacebookF className='cursor-pointer' size={20} />
-            </a>
-            <a href="https://github.com/purityruth" target="_blank" rel="noopener noreferrer">
-              <FaInstagram className='cursor-pointer' size={20}/>
+            <a href="mailto:purityruth09@gmail.com" target="_blank" rel="noopener noreferrer">
+              <AiFillMail className='cursor-pointer' size={20}/>
             </a>
             <a href="https://www.linkedin.com/in/purity-ruth-3940b9227/" target="_blank" rel="noopener noreferrer">
               <FaLinkedinIn className='cursor-pointer' size={20}/>
